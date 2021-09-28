@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="app.js"></script>
+    <title>Practica 1 JavaScript</title>
+</head>
+
+<body>
+
+    <section class="calculadora">
+        <article>
+            <h1> Operaciones Matematicas</h1>
+            <form action="">
+                <center>
+
+                    <label for="">Numero 1</label>
+                    <br>
+                    <input type="num1" name="" id="num1">
+                    <br>
+
+                    <label for="">Numero 2</label>
+                    <br>
+                    <input type="num2" name="" id="num2">
+                    <br>
+                    <br>
+                    <input type="text" id="textResultado" disabled class="fullPantalla">
+                    <br>
+                    <br>
+                    <button type="button" value="SUMAR" onclick="calcularSuma()">Sumar</button>
+
+                    <button type="button" value="RESTAR" onclick="CalcularRestar()">Restar</button>
+
+                    <button type="button" value="MULTIPLICAR" onclick="multiplicar()">Multiplicar</button>
+
+                    <button type="button" value="DIVIDIR" onclick="dividir()">Dividir</button>
+                    <br>
+                    <br>
+                </center>
+            </form>
+        </article>
+
+    </section>
+    <section class="concatenador">
+        <article>
+            <h1> Concatenado </h1>
+            <form action="">
+                <form action="">
+                    <center>
+
+                        <label for="">Nombres</label>
+                        <br>
+                        <input type="text" name="" id="nombre">
+                        <br>
+
+                        <label for="">Apellidos</label>
+                        <br>
+                        <input type="text" name="" id="apellido">
+                        <br>
+                        <br>
+                        <input type="text" id="textConcatenado" disabled class="fullPantalla">
+                        <br>
+
+                        <button type="button" value="concatenado" onclick="concatenar()">Enviar</button>
+                    </center>
+                </form>
+        </article>
+
+    </section>
+
+    <section class="contadorclick">
+        <article>
+
+            <h1>Javascript Click Contador</h1>
+            <div>
+                <center>
+                    <h3 id="counter-label">0</h3>
+                </center>
+            </div>
+            <div>
+                <center>
+                    <button onclick="incrementarClick()">Click Me</button>
+                    <button onclick="resetCounter()">Reset</button>
+                </center>
+            </div>
+        </article>
+
+    </section>
+</body>
+<footer>
+    <article>
+        <center>
+            <h3>
+                &copy; Copyright 2021. Camilo Quiroga.
+            </h3>
+        </center>
+    </article>
+</footer>
+
+</html>
