@@ -1,7 +1,5 @@
-💻 **Practica Javascript** 💻
+💻 **_Práctica Javascript_** 💻
 
-
-**_Practica Javascript_**
 
 Realice una calculadora simple, concatenado de palabras, y un contador.
 
