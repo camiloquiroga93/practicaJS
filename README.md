@@ -3,4 +3,4 @@
 
 Realice una calculadora simple, concatenado de palabras, y un contador.
 
-- Curso Desarrollo Web en .Net @ComIT - 2021
+- Curso Desarrollo de Aplicaciones Web en .Net @ComIT - 2021
